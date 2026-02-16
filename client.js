@@ -2,7 +2,7 @@ import { STRINGS } from "./lang/en/en.js";
 
 class LabAPI {
   constructor() {
-    this.API_BASE_URL = "https://comp4537lab4.duckdns.org";
+    this.API_BASE_URL = "https://comp4537lab4.duckdns.org/lab4/api/v1";
     this.INSERT_ENDPOINT = `${this.API_BASE_URL}/insert`;
     this.SQL_ENDPOINT = `${this.API_BASE_URL}/sql/`;
   }
