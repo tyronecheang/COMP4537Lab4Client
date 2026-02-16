@@ -2,7 +2,8 @@ import { STRINGS } from "./lang/en/en.js";
 
 class LabAPI {
     constructor() {
-        this.API_BASE_URL = "http://104.248.69.163:3000/lab4/api/v1";
+        this.API_BASE_URL =
+          "https://valleybalfour.dev/COMP4537/labs/4/server2/api/v1/";
         this.INSERT_ENDPOINT = `${this.API_BASE_URL}/insert`;
         this.SQL_ENDPOINT = `${this.API_BASE_URL}/sql/`;
     }
